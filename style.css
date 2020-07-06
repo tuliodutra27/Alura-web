@@ -253,9 +253,8 @@ td, th {
 
 @media screen and (max-width: 480px) {
     body {
-        background: #000000;
+        background: #8c8c8c;
     }
-
 
     iframe {
         width: 100%;
@@ -264,19 +263,56 @@ td, th {
         width: auto;
     }
 
+    .video {
+        margin-top: 4em;
+    }
+
     h1 {
         text-align: center;
     }
 
     nav {
         position: static;
+        text-align: center;
     }
 
     .lista-beneficios, .imagem-beneficios {
         width: 100%;
     }
 
+    .lista-beneficios {
+        margin-bottom: 20px;
+    }
+
     .imagem-beneficios {
         margin-top: 30px;
     }
+    
+    .produtos {
+        width: auto;
+    }
+
+    .produtos li {
+        width: auto;
+        margin: 20px 10%;
+        background: pink;
+    }
+
+    footer {
+        margin-bottom: 7em;
+    }
+
+    form, table {
+        margin: 2em;
+    }
+
+    .input-padrao {
+        width: 80%;
+    }
+
+    .enviar {
+        width: 100%;
+        border-radius: 5px;
+    }
+
 }
